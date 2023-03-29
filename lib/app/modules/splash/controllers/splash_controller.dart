@@ -12,7 +12,6 @@ class SplashController extends GetxController {
   void onInit() {
     redirect();
     super.onInit();
-    
   }
 
   @override
@@ -25,8 +24,8 @@ class SplashController extends GetxController {
 
   redirect() {
     Future.delayed(Duration(seconds: 3), () {
-      //Get.offNamed(tokenService.getToken() == null ? Routes.LOGIN : Routes.HOME);
-      Get.offNamed(Routes.HOME);
+      Get.offNamed(tokenService.getToken() == null ? Routes.LOGIN : Routes.HOME);
+      //Get.offNamed(Routes.HOME);
     });
   }
 }
