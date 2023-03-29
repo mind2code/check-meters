@@ -1,0 +1,45 @@
+name: metters_check
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  jwt_decoder: any
+  get_storage: any
+  hexcolor: any
+  flutter_spinkit:
+  fluttertoast: ^8.0.6
+  flutter_barcode_scanner: ^2.0.0
+  flutter_screenutil:
+  intl: any
+  location: ^4.4.0
+  dropdown_button2: ^1.4.0
+  eva_icons_flutter: any
+  google_maps_flutter: ^2.1.1
+  awesome_dialog: ^3.0.2
+  sqflite: ^2.0.2
+  latlong2:
+  flutter_map:
+  external_app_launcher:
+  sn_progress_dialog:
+  sliding_up_panel:
+  dio:
+  http:
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/
+
